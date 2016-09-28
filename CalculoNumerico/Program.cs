@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace Lagrange
+namespace CalculoNumerico
 {
     static class Program
     {
@@ -15,7 +15,7 @@ namespace Lagrange
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new LagrangeView());
         }
     }
 }

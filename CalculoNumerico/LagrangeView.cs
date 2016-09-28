@@ -7,11 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Lagrange
+namespace CalculoNumerico
 {
-    public partial class Form1 : Form
+    public partial class LagrangeView : Form
     {
-        public Form1()
+        public LagrangeView()
         {
             InitializeComponent();
         }

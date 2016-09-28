@@ -1,6 +1,6 @@
-﻿namespace Lagrange
+﻿namespace CalculoNumerico
 {
-    partial class Form1
+    partial class LagrangeView
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LagrangeView));
             this.pcbImagem = new System.Windows.Forms.PictureBox();
             this.grid = new System.Windows.Forms.DataGridView();
             this.X = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -80,14 +80,12 @@
             // 
             this.X.HeaderText = "X";
             this.X.Name = "X";
-            this.X.ReadOnly = true;
             this.X.Width = 50;
             // 
             // Y
             // 
             this.Y.HeaderText = "Y";
             this.Y.Name = "Y";
-            this.Y.ReadOnly = true;
             this.Y.Width = 50;
             // 
             // chkOnline
@@ -109,7 +107,7 @@
             this.lblPontos.TabIndex = 3;
             this.lblPontos.Text = "0 pontos";
             // 
-            // Form1
+            // LagrangeView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -119,7 +117,7 @@
             this.Controls.Add(this.grid);
             this.Controls.Add(this.pcbImagem);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "Form1";
+            this.Name = "LagrangeView";
             this.Text = "Lagrange";
             ((System.ComponentModel.ISupportInitialize)(this.pcbImagem)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.grid)).EndInit();
